@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/forum-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/forum-admin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/forum-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/forum-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/forum-generation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/forum-generator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/forum-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/forum-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

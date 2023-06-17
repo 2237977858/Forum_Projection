@@ -1,6 +1,6 @@
 package com.noself.service.serviceImpl;
 
-import com.noself.entity.EmailCode;
+import com.noself.entity.po.EmailCode;
 import com.noself.mapper.EmailCodeMapper;
 import com.noself.service.EmailCodeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

@@ -1,6 +1,6 @@
 package com.noself.mapper;
 
-import com.noself.entity.ForumArticleAttachmentDownload;
+import com.noself.entity.po.ForumArticleAttachmentDownload;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 

@@ -3,7 +3,7 @@
 <mapper namespace="com.noself.mapper.UserMessageMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.noself.entity.UserMessage">
+    <resultMap id="BaseResultMap" type="com.noself.entity.po.UserMessage">
         <id column="message_id" property="messageId" />
         <result column="received_user_id" property="receivedUserId" />
         <result column="article_id" property="articleId" />

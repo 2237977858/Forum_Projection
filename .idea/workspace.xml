@@ -5,7 +5,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcb974a8-a8d2-4df1-864f-af6cd6834aaa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/controller/ABaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/controller/AGlobalExceptionHandlerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/enums/ResponseCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/vo/ResponseVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/exception/BusinessException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/EmailCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/po/EmailCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/ForumArticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/po/ForumArticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/ForumArticleAttachment.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/po/ForumArticleAttachment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/ForumArticleAttachmentDownload.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/po/ForumArticleAttachmentDownload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/ForumBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/po/ForumBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/ForumComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/po/ForumComment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/LikeRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/po/LikeRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/SysSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/po/SysSetting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/po/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/UserIntegralRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/po/UserIntegralRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/UserMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/po/UserMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/EmailCodeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/EmailCodeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/ForumArticleAttachmentDownloadMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/ForumArticleAttachmentDownloadMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/ForumArticleAttachmentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/ForumArticleAttachmentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/ForumArticleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/ForumArticleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/ForumBoardMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/ForumBoardMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/ForumCommentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/ForumCommentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/LikeRecordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/LikeRecordMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/SysSettingMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/SysSettingMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/UserInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/UserInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/UserIntegralRecordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/UserIntegralRecordMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/UserMessageMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/UserMessageMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/EmailCodeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/EmailCodeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/ForumArticleAttachmentDownloadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/ForumArticleAttachmentDownloadService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/ForumArticleAttachmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/ForumArticleAttachmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/ForumArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/ForumArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/ForumBoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/ForumBoardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/ForumCommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/ForumCommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/LikeRecordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/LikeRecordService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/SysSettingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/SysSettingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/UserInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/UserIntegralRecordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/UserIntegralRecordService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/UserMessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/UserMessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/EmailCodeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/EmailCodeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/ForumArticleAttachmentDownloadServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/ForumArticleAttachmentDownloadServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/ForumArticleAttachmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/ForumArticleAttachmentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/ForumArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/ForumArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/ForumBoardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/ForumBoardServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/ForumCommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/ForumCommentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/LikeRecordServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/LikeRecordServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/SysSettingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/SysSettingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/UserInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/UserIntegralRecordServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/UserIntegralRecordServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/UserMessageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/UserMessageServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/EmailCodeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/EmailCodeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/ForumArticleAttachmentDownloadMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/ForumArticleAttachmentDownloadMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/ForumArticleAttachmentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/ForumArticleAttachmentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/ForumArticleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/ForumArticleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/ForumBoardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/ForumBoardMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/ForumCommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/ForumCommentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/LikeRecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/LikeRecordMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/SysSettingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/SysSettingMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/UserInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/UserIntegralRecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/UserIntegralRecordMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/UserMessageMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/UserMessageMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +75,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -30,6 +91,9 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2Qgam2xBMA7VZzVkScamWXV2Bn3" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -122,6 +186,14 @@
       <option name="presentableId" value="Default" />
       <updated>1685777834764</updated>
     </task>
+    <task id="LOCAL-00001" summary="[UPDATE]说明文档&#10;&#10;更新视频进度">
+      <created>1686387781579</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686387781579</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -130,6 +202,10 @@
     <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
     <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
     <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[UPDATE]说明文档&#10;&#10;更新视频进度" />
+    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]说明文档&#10;&#10;更新视频进度" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

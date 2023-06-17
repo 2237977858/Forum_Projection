@@ -1,6 +1,6 @@
 package com.noself.service;
 
-import com.noself.entity.LikeRecord;
+import com.noself.entity.po.LikeRecord;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

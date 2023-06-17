@@ -1,6 +1,6 @@
 package com.noself.service.serviceImpl;
 
-import com.noself.entity.UserIntegralRecord;
+import com.noself.entity.po.UserIntegralRecord;
 import com.noself.mapper.UserIntegralRecordMapper;
 import com.noself.service.UserIntegralRecordService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

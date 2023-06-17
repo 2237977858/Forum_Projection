@@ -1,6 +1,6 @@
 package com.noself.service;
 
-import com.noself.entity.UserIntegralRecord;
+import com.noself.entity.po.UserIntegralRecord;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

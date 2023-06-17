@@ -1,6 +1,6 @@
 package com.noself.service.serviceImpl;
 
-import com.noself.entity.ForumArticleAttachment;
+import com.noself.entity.po.ForumArticleAttachment;
 import com.noself.mapper.ForumArticleAttachmentMapper;
 import com.noself.service.ForumArticleAttachmentService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

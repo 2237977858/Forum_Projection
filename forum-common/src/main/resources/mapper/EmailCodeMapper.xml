@@ -3,7 +3,7 @@
 <mapper namespace="com.noself.mapper.EmailCodeMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.noself.entity.EmailCode">
+    <resultMap id="BaseResultMap" type="com.noself.entity.po.EmailCode">
         <id column="email" property="email" />
         <id column="code" property="code" />
         <result column="create_time" property="createTime" />

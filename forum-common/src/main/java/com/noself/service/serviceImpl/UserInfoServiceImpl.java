@@ -1,6 +1,6 @@
 package com.noself.service.serviceImpl;
 
-import com.noself.entity.UserInfo;
+import com.noself.entity.po.UserInfo;
 import com.noself.mapper.UserInfoMapper;
 import com.noself.service.UserInfoService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

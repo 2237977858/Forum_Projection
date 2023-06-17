@@ -1,6 +1,6 @@
 package com.noself.mapper;
 
-import com.noself.entity.SysSetting;
+import com.noself.entity.po.SysSetting;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 

@@ -1,6 +1,6 @@
 package com.noself.service;
 
-import com.noself.entity.ForumArticleAttachmentDownload;
+import com.noself.entity.po.ForumArticleAttachmentDownload;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

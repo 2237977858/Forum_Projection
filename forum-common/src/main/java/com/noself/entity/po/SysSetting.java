@@ -1,18 +1,17 @@
-package com.noself.entity;
+package com.noself.entity.po;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import java.io.Serializable;
-import java.time.LocalDateTime;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.experimental.Accessors;
 
 /**
  * <p>
- * 邮箱验证码
+ * 系统设置信息
  * </p>
  *
  * @author noself
@@ -21,16 +20,10 @@ import lombok.experimental.Accessors;
 @Getter
 @Setter
 @Accessors(chain = true)
-@TableName("email_code")
-public class EmailCode implements Serializable {
+@TableName("sys_setting")
+public class SysSetting implements Serializable {
 
     private static final long serialVersionUID = 1L;
-
-    /**
-     * 邮箱
-     */
-    @TableId(value = "email", type = IdType.AUTO)
-    private String email;
 
     /**
      * 编号
@@ -39,16 +32,10 @@ public class EmailCode implements Serializable {
     private String code;
 
     /**
-     * 创建时间
+     * 设置信息
      */
-    @TableField("create_time")
-    private LocalDateTime createTime;
-
-    /**
-     * 0:未使用  1:已使用
-     */
-    @TableField("status")
-    private Boolean status;
+    @TableField("json_content")
+    private String jsonContent;
 
 
 }

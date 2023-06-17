@@ -1,6 +1,6 @@
 package com.noself.service;
 
-import com.noself.entity.UserInfo;
+import com.noself.entity.po.UserInfo;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

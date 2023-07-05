@@ -5,67 +5,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcb974a8-a8d2-4df1-864f-af6cd6834aaa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/controller/ABaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/controller/AGlobalExceptionHandlerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/enums/ResponseCodeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/vo/ResponseVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/dto/CreateImageCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forum-web/src/main/java/com/noself/ForumWebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forum-web/src/main/java/com/noself/controller/AccountController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/EmailCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/po/EmailCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/ForumArticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/po/ForumArticle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/ForumArticleAttachment.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/po/ForumArticleAttachment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/ForumArticleAttachmentDownload.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/po/ForumArticleAttachmentDownload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/ForumBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/po/ForumBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/ForumComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/po/ForumComment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/LikeRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/po/LikeRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/SysSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/po/SysSetting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/po/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/UserIntegralRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/po/UserIntegralRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/UserMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/po/UserMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/EmailCodeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/EmailCodeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/ForumArticleAttachmentDownloadMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/ForumArticleAttachmentDownloadMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/ForumArticleAttachmentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/ForumArticleAttachmentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/ForumArticleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/ForumArticleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/ForumBoardMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/ForumBoardMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/ForumCommentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/ForumCommentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/LikeRecordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/LikeRecordMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/SysSettingMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/SysSettingMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/UserInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/UserInfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/UserIntegralRecordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/UserIntegralRecordMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/UserMessageMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/UserMessageMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/EmailCodeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/EmailCodeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/ForumArticleAttachmentDownloadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/ForumArticleAttachmentDownloadService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/ForumArticleAttachmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/ForumArticleAttachmentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/ForumArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/ForumArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/ForumBoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/ForumBoardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/ForumCommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/ForumCommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/LikeRecordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/LikeRecordService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/SysSettingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/SysSettingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/UserInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/UserIntegralRecordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/UserIntegralRecordService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/UserMessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/UserMessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/EmailCodeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/EmailCodeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/ForumArticleAttachmentDownloadServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/ForumArticleAttachmentDownloadServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/ForumArticleAttachmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/ForumArticleAttachmentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/ForumArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/ForumArticleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/ForumBoardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/ForumBoardServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/ForumCommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/ForumCommentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/LikeRecordServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/LikeRecordServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/SysSettingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/SysSettingServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/UserInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/UserIntegralRecordServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/UserIntegralRecordServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/UserMessageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/UserMessageServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/EmailCodeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/EmailCodeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/ForumArticleAttachmentDownloadMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/ForumArticleAttachmentDownloadMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/ForumArticleAttachmentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/ForumArticleAttachmentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/ForumArticleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/ForumArticleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/ForumBoardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/ForumBoardMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/ForumCommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/ForumCommentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/LikeRecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/LikeRecordMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/SysSettingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/SysSettingMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/UserInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/UserIntegralRecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/UserIntegralRecordMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/UserMessageMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/UserMessageMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/mapper/EmailCodeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/mapper/EmailCodeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/mapper/ForumArticleAttachmentDownloadMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/mapper/ForumArticleAttachmentDownloadMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/mapper/ForumArticleAttachmentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/mapper/ForumArticleAttachmentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/mapper/ForumArticleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/mapper/ForumArticleMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/mapper/ForumBoardMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/mapper/ForumBoardMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/mapper/ForumCommentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/mapper/ForumCommentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/mapper/LikeRecordMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/mapper/LikeRecordMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/mapper/SysSettingMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/mapper/SysSettingMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/mapper/UserInfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/mapper/UserInfoMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/mapper/UserIntegralRecordMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/mapper/UserIntegralRecordMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/mapper/UserMessageMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/mapper/UserMessageMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/EmailCodeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/EmailCodeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/ForumArticleAttachmentDownloadService.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/ForumArticleAttachmentDownloadService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/ForumArticleAttachmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/ForumArticleAttachmentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/ForumArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/ForumArticleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/ForumBoardService.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/ForumBoardService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/ForumCommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/ForumCommentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/LikeRecordService.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/LikeRecordService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/SysSettingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/SysSettingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/UserInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/UserInfoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/UserIntegralRecordService.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/UserIntegralRecordService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/UserMessageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/UserMessageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/serviceImpl/EmailCodeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/serviceImpl/EmailCodeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/serviceImpl/ForumArticleAttachmentDownloadServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/serviceImpl/ForumArticleAttachmentDownloadServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/serviceImpl/ForumArticleAttachmentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/serviceImpl/ForumArticleAttachmentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/serviceImpl/ForumArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/serviceImpl/ForumArticleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/serviceImpl/ForumBoardServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/serviceImpl/ForumBoardServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/serviceImpl/ForumCommentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/serviceImpl/ForumCommentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/serviceImpl/LikeRecordServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/serviceImpl/LikeRecordServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/serviceImpl/SysSettingServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/serviceImpl/SysSettingServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/serviceImpl/UserInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/serviceImpl/UserInfoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/serviceImpl/UserIntegralRecordServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/serviceImpl/UserIntegralRecordServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/serviceImpl/UserMessageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/serviceImpl/UserMessageServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/mapper/EmailCodeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/mapper/EmailCodeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/mapper/ForumArticleAttachmentDownloadMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/mapper/ForumArticleAttachmentDownloadMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/mapper/ForumArticleAttachmentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/mapper/ForumArticleAttachmentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/mapper/ForumArticleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/mapper/ForumArticleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/mapper/ForumBoardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/mapper/ForumBoardMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/mapper/ForumCommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/mapper/ForumCommentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/mapper/LikeRecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/mapper/LikeRecordMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/mapper/SysSettingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/mapper/SysSettingMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/mapper/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/mapper/UserInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/mapper/UserIntegralRecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/mapper/UserIntegralRecordMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/mapper/UserMessageMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/mapper/UserMessageMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-web/target/classes/com/noself/ForumWebApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-web/target/classes/com/noself/ForumWebApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-web/target/classes/com/noself/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/blog-web.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/blog-web.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,20 +90,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Forum_Projection/forum-generator/src/main&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "F:/Forum_Projection1",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Forum_Projection\forum-web\src\main" />
       <recent name="F:\Forum_Projection\forum-generator\src\main" />
       <recent name="F:\Forum_Projection\forum-admin\src\main\resources" />
       <recent name="F:\操作手册\项目\论坛\Forum_Projection\forum-admin\src\main\resources" />
@@ -129,7 +123,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ForumGenApplication">
+  <component name="RunManager" selected="Application.ForumWebApplication">
     <configuration name="ForumAdminApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.noself.ForumAdminApplication" />
       <module name="forum-admin" />
@@ -171,8 +165,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ForumGenApplication" />
         <item itemvalue="Application.ForumWebApplication" />
+        <item itemvalue="Application.ForumGenApplication" />
         <item itemvalue="Application.ForumAdminApplication" />
       </list>
     </recent_temporary>

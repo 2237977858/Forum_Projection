@@ -3,7 +3,7 @@
 <mapper namespace="com.noself.mapper.LikeRecordMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.noself.entity.LikeRecord">
+    <resultMap id="BaseResultMap" type="com.noself.entity.po.LikeRecord">
         <id column="op_id" property="opId" />
         <result column="op_type" property="opType" />
         <result column="object_id" property="objectId" />

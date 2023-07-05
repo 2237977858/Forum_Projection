@@ -3,7 +3,7 @@
 <mapper namespace="com.noself.mapper.ForumBoardMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.noself.entity.ForumBoard">
+    <resultMap id="BaseResultMap" type="com.noself.entity.po.ForumBoard">
         <id column="board_id" property="boardId" />
         <result column="p_board_id" property="pBoardId" />
         <result column="board_name" property="boardName" />

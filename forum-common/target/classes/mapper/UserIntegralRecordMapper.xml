@@ -3,7 +3,7 @@
 <mapper namespace="com.noself.mapper.UserIntegralRecordMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.noself.entity.UserIntegralRecord">
+    <resultMap id="BaseResultMap" type="com.noself.entity.po.UserIntegralRecord">
         <id column="record_id" property="recordId" />
         <result column="user_id" property="userId" />
         <result column="oper_type" property="operType" />

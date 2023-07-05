@@ -3,7 +3,7 @@
 <mapper namespace="com.noself.mapper.ForumArticleAttachmentDownloadMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.noself.entity.ForumArticleAttachmentDownload">
+    <resultMap id="BaseResultMap" type="com.noself.entity.po.ForumArticleAttachmentDownload">
         <id column="file_id" property="fileId" />
         <id column="user_id" property="userId" />
         <result column="article_id" property="articleId" />

@@ -3,7 +3,7 @@
 <mapper namespace="com.noself.mapper.ForumCommentMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.noself.entity.ForumComment">
+    <resultMap id="BaseResultMap" type="com.noself.entity.po.ForumComment">
         <id column="comment_id" property="commentId" />
         <result column="p_comment_id" property="pCommentId" />
         <result column="article_id" property="articleId" />

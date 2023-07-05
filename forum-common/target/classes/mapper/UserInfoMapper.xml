@@ -3,7 +3,7 @@
 <mapper namespace="com.noself.mapper.UserInfoMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.noself.entity.UserInfo">
+    <resultMap id="BaseResultMap" type="com.noself.entity.po.UserInfo">
         <id column="user_id" property="userId" />
         <result column="nick_name" property="nickName" />
         <result column="email" property="email" />

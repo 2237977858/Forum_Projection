@@ -2,7 +2,7 @@ package com.noself.controller;
 
 import com.noself.entity.enums.ResponseCodeEnum;
 import com.noself.entity.vo.ResponseVo;
-import com.noself.exception.BusinessException;
+import com.noself.controller.exception.BusinessException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.dao.DuplicateKeyException;
@@ -38,8 +38,8 @@ public class AGlobalExceptionHandlerController extends ABaseController{
         } else if (e instanceof BusinessException) {
             // 业务错误
             BusinessException biz = (BusinessException) e;
-            ajaxResponse.setCode(ResponseCodeEnum.CODE_404.getCode());
-            ajaxResponse.setInfo(ResponseCodeEnum.CODE_404.getMsg());
+            ajaxResponse.setCode(biz.getCode());
+            ajaxResponse.setInfo(biz.getMessage());
             ajaxResponse.setStatus(STATUS_ERROR);
         } else if (e instanceof BindException) {
             // 参数类型错误

@@ -6,6 +6,8 @@ import com.noself.service.UserInfoService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
+
 /**
  * <p>
  * 用户信息 服务实现类
@@ -17,4 +19,11 @@ import org.springframework.stereotype.Service;
 @Service
 public class UserInfoServiceImpl extends ServiceImpl<UserInfoMapper, UserInfo> implements UserInfoService {
 
+    @Resource
+    private UserInfoMapper userInfoMapper;
+
+    @Override
+    public UserInfo selectByEmail(String email) {
+        return userInfoMapper.selectByEmail(email);
+    }
 }

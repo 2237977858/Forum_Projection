@@ -2,7 +2,7 @@ package com.noself.controller;
 
 import com.noself.entity.enums.ResponseCodeEnum;
 import com.noself.entity.vo.ResponseVo;
-import com.noself.exception.BusinessException;
+import com.noself.controller.exception.BusinessException;
 
 public class ABaseController {
 

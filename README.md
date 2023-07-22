@@ -25,4 +25,8 @@ up：程序员老罗
 
 # 进度
 
-2023-2-25 P4（20:42
+发送邮箱，未写完
+
+EmailCodeServiceImpl类的sendEmailCode方法未写完
+
+AccountController类中的sendEmailCode方法未写完

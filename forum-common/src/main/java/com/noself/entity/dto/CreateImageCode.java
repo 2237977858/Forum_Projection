@@ -138,9 +138,15 @@ public class CreateImageCode {
     public String getText() {
         return text;
     }
-    public static void output(BufferedImage image) throws IOException                  //将验证码图片写出的方法
+
+    /**
+     * 将生成的图片以文件流的方式输出
+     * @param image
+     * @param out
+     * @throws IOException
+     */
+    public static void output(BufferedImage image, OutputStream out) throws IOException                  //将验证码图片写出的方法
     {
-        OutputStream out = new FileOutputStream("E:\\hotelManagementSystem\\wanglele\\src\\assets\\yanzhengma\\a.jpg");  /// 将图片生成到 e盘下面
         ImageIO.write(image, "jpg", out);
     }
 }

@@ -14,5 +14,6 @@ import org.apache.ibatis.annotations.Mapper;
  */
 @Mapper
 public interface UserInfoMapper extends BaseMapper<UserInfo> {
+    public UserInfo selectByEmail(String email);
 
 }

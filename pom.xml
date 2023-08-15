@@ -26,6 +26,7 @@
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
+        <redis.version>2.7.3</redis.version>
         <mybatis.version>2.2.2</mybatis.version>
         <mybatis-plus.version>3.3.1</mybatis-plus.version>
         <mybatis-gen.version>3.3.1</mybatis-gen.version>
@@ -44,6 +45,12 @@
 
     <dependencyManagement>
         <dependencies>
+            <!-- redis -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-redis</artifactId>
+                <version>${redis.version}</version>
+            </dependency>
             <!-- mybatis -->
             <dependency>
                 <groupId>org.mybatis.spring.boot</groupId>

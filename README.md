@@ -25,8 +25,6 @@ up：程序员老罗
 
 # 进度
 
-发送邮箱，未写完
+发送邮箱，写完未验证
+注册逻辑，未增加积分逻辑
 
-EmailCodeServiceImpl类的sendEmailCode方法未写完
-
-AccountController类中的sendEmailCode方法未写完

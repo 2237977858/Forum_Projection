@@ -5,22 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcb974a8-a8d2-4df1-864f-af6cd6834aaa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/constants/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/utils/StringTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/enums/UserStatusEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/controller/ABaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/controller/ABaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/controller/AGlobalExceptionHandlerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/controller/AGlobalExceptionHandlerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/dto/CreateImageCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/dto/CreateImageCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/controller/exception/BusinessException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/UserInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/UserInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-admin/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/forum-admin/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-admin/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/forum-admin/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/constants/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/po/EmailCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/po/EmailCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/po/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/entity/po/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/EmailCodeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/mapper/EmailCodeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/EmailCodeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/EmailCodeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/UserInfoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/EmailCodeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/EmailCodeServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/service/serviceImpl/UserInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/utils/StringTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/java/com/noself/utils/StringTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/EmailCodeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/EmailCodeMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/src/main/resources/mapper/UserInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/entity/EmailCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/entity/ForumArticle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/entity/ForumArticleAttachment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/entity/ForumArticleAttachmentDownload.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/entity/ForumBoard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/entity/ForumComment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/entity/LikeRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/entity/SysSetting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/entity/UserInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/entity/UserIntegralRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/entity/UserMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/mapper/EmailCodeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/mapper/EmailCodeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/mapper/UserInfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/mapper/UserInfoMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/EmailCodeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/EmailCodeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/UserInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/UserInfoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/serviceImpl/EmailCodeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/serviceImpl/EmailCodeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/serviceImpl/UserInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/com/noself/service/serviceImpl/UserInfoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/mapper/EmailCodeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/mapper/EmailCodeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-common/target/classes/mapper/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forum-common/target/classes/mapper/UserInfoMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forum-web/src/main/java/com/noself/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/forum-web/src/main/java/com/noself/controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/forum-web/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum-web/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/forum-web/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/blog-web.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/blog-web.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,20 +80,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "F:/Forum_Projection1",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Forum_Projection1&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Forum_Projection\forum-web\src\main" />
@@ -76,6 +103,7 @@
       <recent name="F:\操作手册\项目\论坛\Forum_Projection\forum-admin\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.noself.entity.enums" />
       <recent name="" />
     </key>
   </component>
@@ -158,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688557550048</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[UPDATE]新增验证字母验证码&#10;&#10;1、验证字母验证码方法&#10;2、新增userinfo根据email查询用户信息&#10;3、更新文档进度">
+      <created>1690021696864</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690021696864</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -171,7 +206,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[UPDATE]说明文档&#10;&#10;更新视频进度" />
     <MESSAGE value="[UPDATE]新增生成验证码类&#10;&#10;验证码类，获取验证码逻辑（部分" />
-    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]新增生成验证码类&#10;&#10;验证码类，获取验证码逻辑（部分" />
+    <MESSAGE value="[UPDATE]新增验证字母验证码&#10;&#10;1、验证字母验证码方法&#10;2、新增userinfo根据email查询用户信息&#10;3、更新文档进度" />
+    <option name="LAST_COMMIT_MESSAGE" value="[UPDATE]新增验证字母验证码&#10;&#10;1、验证字母验证码方法&#10;2、新增userinfo根据email查询用户信息&#10;3、更新文档进度" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

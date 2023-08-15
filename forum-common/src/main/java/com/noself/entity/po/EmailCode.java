@@ -6,6 +6,7 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.util.Date;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Getter;
@@ -32,13 +33,13 @@ public class EmailCode implements Serializable {
     /**
      * 邮箱
      */
-    @TableId(value = "email", type = IdType.AUTO)
+    @TableField(value = "email")
     private String email;
 
     /**
      * 编号
      */
-    @TableId(value = "code", type = IdType.AUTO)
+    @TableField(value = "code")
     private String code;
 
     /**
@@ -47,13 +48,13 @@ public class EmailCode implements Serializable {
     @TableField("create_time")
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
-    private LocalDateTime createTime;
+    private Date createTime;
 
     /**
      * 0:未使用  1:已使用
      */
     @TableField("status")
-    private Boolean status;
+    private Integer status;
 
 
 }

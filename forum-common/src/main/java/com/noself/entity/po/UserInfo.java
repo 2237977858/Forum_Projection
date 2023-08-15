@@ -6,6 +6,7 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.util.Date;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Getter;
@@ -71,7 +72,7 @@ public class UserInfo implements Serializable {
     @TableField("join_time")
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
-    private LocalDateTime joinTime;
+    private Date joinTime;
 
     /**
      * 最后登录时间
@@ -79,7 +80,7 @@ public class UserInfo implements Serializable {
     @TableField("last_login_time")
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
-    private LocalDateTime lastLoginTime;
+    private Date lastLoginTime;
 
     /**
      * 最后登录IP

@@ -12,5 +12,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @since 2023年06月10日
  */
 public interface SysSettingService extends IService<SysSetting> {
-
+    void refreshCache();
 }

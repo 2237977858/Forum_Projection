@@ -35,7 +35,7 @@ public class ForumArticleAttachmentDownload implements Serializable {
      * 用户id
      */
     @TableId(value = "user_id", type = IdType.AUTO)
-    private String userId;
+    private Integer userId;
 
     /**
      * 文章ID

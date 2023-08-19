@@ -41,7 +41,7 @@ public class ForumArticleAttachment implements Serializable {
      * 用户id
      */
     @TableField("user_id")
-    private String userId;
+    private Integer userId;
 
     /**
      * 文件大小

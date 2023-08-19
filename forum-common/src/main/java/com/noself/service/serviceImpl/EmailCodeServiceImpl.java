@@ -1,6 +1,8 @@
 package com.noself.service.serviceImpl;
 
+import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.extension.conditions.update.LambdaUpdateChainWrapper;
 import com.noself.controller.exception.BusinessException;
 import com.noself.entity.config.WebConfig;
 import com.noself.entity.constants.Constants;
@@ -53,7 +55,9 @@ public class EmailCodeServiceImpl extends ServiceImpl<EmailCodeMapper, EmailCode
     public void sendEmailCode(String email, Integer type) {
         // 获取邮箱时填写的验证码
         if (type == Constants.ZERO) {
-            UserInfo userInfo = userInfoMapper.selectByEmail(email);
+            QueryWrapper emailWrapper = new QueryWrapper();
+            emailWrapper.eq("email", email);
+            UserInfo userInfo = userInfoMapper.selectOne(emailWrapper);
             if (userInfo != null) {
                 throw new BusinessException("邮箱已存在");
             }
@@ -61,7 +65,11 @@ public class EmailCodeServiceImpl extends ServiceImpl<EmailCodeMapper, EmailCode
         String code = StringTools.getRandomString(Constants.LENGTH_5);
         sendEmailCodeDo(email, code);
         // 发送邮箱之前将之前的邮箱验证码都设为无效
-        emailCodeMapper.disableEmailCode(email);
+        new LambdaUpdateChainWrapper<EmailCode>(emailCodeMapper)
+                .eq(EmailCode::getEmail, email)
+                .eq(EmailCode::getStatus, 0)
+                .set(EmailCode::getStatus, 1)
+                .update();
 
         EmailCode emailCode = new EmailCode();
         emailCode.setCode(code);
@@ -115,6 +123,11 @@ public class EmailCodeServiceImpl extends ServiceImpl<EmailCodeMapper, EmailCode
         if (emailCode.getStatus() != Constants.ZERO || System.currentTimeMillis() - emailCode.getCreateTime().getTime() > 1000 * 60 * Constants.EMAIL_CODE_EXPIRE_TIME) {
             throw new BusinessException("邮箱验证码已失效");
         }
-        emailCodeMapper.disableEmailCode(email);
+        // 发送邮箱之前将之前的邮箱验证码都设为无效
+        new LambdaUpdateChainWrapper<EmailCode>(emailCodeMapper)
+                .eq(EmailCode::getEmail, email)
+                .eq(EmailCode::getStatus, 0)
+                .set(EmailCode::getStatus, 1)
+                .update();
     }
 }

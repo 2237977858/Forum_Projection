@@ -8,6 +8,8 @@ package com.noself.entity.constants;
  * @Date: 2023/7/22
  */
 
+import com.sun.org.glassfish.external.statistics.Statistic;
+
 public class Constants {
     // 存储登录注册验证码的key
     public static final String CHECK_CODE_KEY = "check_code_key";
@@ -16,6 +18,9 @@ public class Constants {
 
     // 邮箱验证码的过期时间
     public static final Integer EMAIL_CODE_EXPIRE_TIME = 15;
+
+    // 注册账号获得的积分
+    public static final Integer REGISTER_INTEGRAL = 5;
 
     public static final Integer ZERO = 0;
 

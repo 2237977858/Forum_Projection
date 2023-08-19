@@ -14,10 +14,5 @@ import org.apache.ibatis.annotations.Mapper;
  */
 @Mapper
 public interface EmailCodeMapper extends BaseMapper<EmailCode> {
-    /**
-     * 将改邮箱的验证码status设为1，置为无效
-     * @param email
-     */
-    void disableEmailCode(String email);
 
 }

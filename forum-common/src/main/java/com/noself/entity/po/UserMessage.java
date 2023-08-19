@@ -6,6 +6,7 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.util.Date;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Getter;
@@ -39,7 +40,7 @@ public class UserMessage implements Serializable {
      * 接收人用户ID
      */
     @TableField("received_user_id")
-    private String receivedUserId;
+    private Integer receivedUserId;
 
     /**
      * 文章ID
@@ -95,7 +96,7 @@ public class UserMessage implements Serializable {
     @TableField("create_time")
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
-    private LocalDateTime createTime;
+    private Date createTime;
 
 
 }

@@ -1,5 +1,7 @@
 package com.noself.service;
 
+import com.noself.entity.enums.UserIntegralChangeTypeEnum;
+import com.noself.entity.enums.UserIntegralOperTypeEnum;
 import com.noself.entity.po.UserInfo;
 import com.baomidou.mybatisplus.extension.service.IService;
 
@@ -13,8 +15,8 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface UserInfoService extends IService<UserInfo> {
 
-    UserInfo selectByEmail(String email);
-
     void register(String email, String emailCode, String nickName, String password);
+
+    void updateUserIntegral(Integer userId, UserIntegralOperTypeEnum operTypeEnum, UserIntegralChangeTypeEnum changeTypeEnum, Integer integral);
 
 }

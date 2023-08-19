@@ -15,8 +15,5 @@
         email, code, create_time, status
     </sql>
 
-    <update id="disableEmailCode">
-        update email_code set status = 1 where email = #{email} and status = 0;
-    </update>
 
 </mapper>
